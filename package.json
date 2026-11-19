@@ -1,0 +1,16 @@
+{
+  "name": "@local/yitang",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "一堂(yitang)工作方法论技能包:双三角、Y模型、场景STAR、业务公式、C×D循环、ADAPTED 6+1、Skill/Partner封装、口喷、十倍速飞轮。",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "docs", "icon.svg", "skills"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
